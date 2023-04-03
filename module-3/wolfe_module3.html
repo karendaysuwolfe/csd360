@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <!--
+
+       Karendaysu Wolfe
+
+       Bellevue University
+
+    -->
+
+<head>
+	<title>My Short Story</title>
+	<script>
+		function replaceText(id, text) {
+			document.getElementById(id).innerHTML = text;
+		}
+	</script>
+</head>
+<body>
+	<h1>My Short Story</h1>
+	<p>When I was 10 years old, I had a memorable experience in <span id="blank1">_____</span> the place where I was born. I would always play soccer after school and sometimes on the weekend. When it was a game day, we would play at the local  <span id="blank2">_____</span> field and my parents would be there to watch me. I remember feeling nervous as the games would start and being able to last <span id="blank3">_____</span> minutes. After the games was done, my parents would take me out to eat at a nice place if I won.  If I lost, we would still get to go somewhere nice to eat. Even when a lost, my parents always make feel like I won <span id="blank4">_____</span> because they believe having fun was more important than winning. </p>
+	<button onclick="replaceText('blank1', 'Cuernavaca,')">Replace 1st one</button>
+	<button onclick="replaceText('blank2', 'soccer')">Replace 2nd one</button>
+	<button onclick="replaceText('blank3', '90+')">Replace 3rd one</button>
+	<button onclick="replaceText('blank4', 'The game')">Replace 4th one</button>
+</body>
+</html>
